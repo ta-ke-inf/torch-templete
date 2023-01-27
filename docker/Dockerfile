@@ -20,4 +20,4 @@ RUN pip install torch torchvision torchaudio --extra-index-url https://download.
 RUN pip install jupyterlab
 RUN pip install seaborn scikit-learn
 WORKDIR /work
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]
+#CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]

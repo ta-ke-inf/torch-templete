@@ -1,6 +1,6 @@
 version: "3"
-sevices:
-  jupyter:
+services:
+  jupyterlab:
     build: .
     image: my-pytorch-img
     container_name: "my-pytorch"
